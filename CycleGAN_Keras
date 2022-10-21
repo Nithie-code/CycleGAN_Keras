@@ -109,7 +109,7 @@ def resnet_block(n_filters, input_layer):
     return g
 
 
-# define the standalone generator model
+# define the standalone generator model #RESNET
 def define_generator(image_shape, n_resnet=9):
     # weight initialization
     init = RandomNormal(stddev=0.02)
