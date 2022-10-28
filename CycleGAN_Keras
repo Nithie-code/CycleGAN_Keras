@@ -1,4 +1,4 @@
-#imports
+#Imports 
 from random import random
 from numpy import load
 from numpy import zeros
