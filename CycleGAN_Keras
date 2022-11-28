@@ -264,7 +264,7 @@ def update_image_pool(pool, images, max_size=50):
     return asarray(selected)
 
 
-# train cyclegan models
+# train CYCLEGAN models
 def train(d_model_A, d_model_B, g_model_AtoB, g_model_BtoA, c_model_AtoB, c_model_BtoA, dataset):
     # define properties of the training run
     n_epochs, n_batch, = 100, 1
